@@ -1,0 +1,123 @@
+/*-----------------------------------
+BEARD OFF STYLES
+
+Author: meltmedia
+Date: 2012
+------------------------------------*/
+
+/*-----------------------------------
+Global stuff
+------------------------------------*/
+
+body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1, h2 { font-family: "adelle-1","adelle-2", Times, serif; }
+
+body {
+  background: #e7e7e7 url(../images/bg.gif) repeat 0 0;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  text-align: center;
+}
+
+section {
+  border-bottom: 2px solid #e0edee;
+  margin: 0 auto;
+  max-width: 2380px;
+}
+
+header {
+  margin: 0 auto;
+  max-width: 2340px;
+  padding: 30px 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+h2 {
+  background: #444;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  padding: 12px 20px 8px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 span, h2 span { font-weight: 600; }
+
+#week1 h2 {
+  background: -moz-linear-gradient(left, #341856 0%, #341856 4%, #8e58a4 46%, #8e58a4 58%, #341856 100%);
+  background: -webkit-linear-gradient(left, #341856 0%,#341856 4%,#8e58a4 46%,#8e58a4 58%,#341856 100%);
+  background: linear-gradient(to right, #341856 0%,#341856 4%,#753d8c 46%,#8e58a4 58%,#8e58a4 100%);
+}
+
+#week2 h2 {
+  background: -moz-linear-gradient(left, #b8321b 0%, #b8321b 4%, #de6d23 46%, #de6d23 58%, #b8321b 100%);
+  background: -webkit-linear-gradient(left, #b8321b 0%,#b8321b 4%,#de6d23 46%,#de6d23 58%,#b8321b 100%);
+  background: linear-gradient(to right, #b8321b 0%,#b8321b 4%,#b8321b 46%,#de6d23 58%,#de6d23 100%);
+}
+
+#week3 h2 {
+  background: -moz-linear-gradient(left, #05376f 0%, #05376f 4%, #206ec5 46%, #206ec5 58%, #05376f 100%);
+  background: -webkit-linear-gradient(left, #05376f 0%,#05376f 4%,#206ec5 46%,#206ec5 58%,#05376f 100%);
+  background: linear-gradient(to right, #05376f 0%,#05376f 4%,#05376f 46%,#206ec5 58%,#206ec5 100%);
+}
+
+p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/*-----------------------------------
+Clearfix
+------------------------------------*/
+
+.clearfix:after, section:after, header:after, footer:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/*-----------------------------------
+Media Queries
+------------------------------------*/
+
+@media only screen 
+and (max-width: 900px) {
+
+  header { padding: 20px 20px; }
+  h1 { font-size: 28px; }
+  h2 { font-size: 16px; }
+  p { font-size: 14px; }
+
+}
+
+@media only screen 
+and (max-width: 400px) {
+
+  h1 { font-size: 18px; }
+  h2 { font-size: 13px; }
+  p { font-size: 12px; }
+
+}
+
+
+
+
+
+
