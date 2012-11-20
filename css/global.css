@@ -52,19 +52,19 @@ h2 {
 
 h1 span, h2 span { font-weight: 600; }
 
-#week1 h2 {
+#week0 h2 {
   background: -moz-linear-gradient(left, #341856 0%, #341856 4%, #8e58a4 46%, #8e58a4 58%, #341856 100%);
   background: -webkit-linear-gradient(left, #341856 0%,#341856 4%,#8e58a4 46%,#8e58a4 58%,#341856 100%);
   background: linear-gradient(to right, #341856 0%,#341856 4%,#753d8c 46%,#8e58a4 58%,#8e58a4 100%);
 }
 
-#week2 h2 {
+#week1 h2 {
   background: -moz-linear-gradient(left, #b8321b 0%, #b8321b 4%, #de6d23 46%, #de6d23 58%, #b8321b 100%);
   background: -webkit-linear-gradient(left, #b8321b 0%,#b8321b 4%,#de6d23 46%,#de6d23 58%,#b8321b 100%);
   background: linear-gradient(to right, #b8321b 0%,#b8321b 4%,#b8321b 46%,#de6d23 58%,#de6d23 100%);
 }
 
-#week3 h2 {
+#week2 h2 {
   background: -moz-linear-gradient(left, #05376f 0%, #05376f 4%, #206ec5 46%, #206ec5 58%, #05376f 100%);
   background: -webkit-linear-gradient(left, #05376f 0%,#05376f 4%,#206ec5 46%,#206ec5 58%,#05376f 100%);
   background: linear-gradient(to right, #05376f 0%,#05376f 4%,#05376f 46%,#206ec5 58%,#206ec5 100%);
