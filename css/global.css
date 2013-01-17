@@ -13,7 +13,7 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 h1, h2 { font-family: "adelle-1","adelle-2", Times, serif; }
 
 body {
-  background: #e7e7e7 url(../images/bg.gif) repeat 0 0;
+  background: #000;
 }
 
 header {
@@ -115,6 +115,12 @@ h1 span, h2 span { font-weight: 600; }
   background: -moz-linear-gradient(left, #05696f 0%, #05696f 4%, #20b9c7 46%, #20b9c7 58%, #05696f 100%);
   background: -webkit-linear-gradient(left, #05696f 0%,#05696f 4%,#20b9c7 46%,#20b9c7 58%,#05696f 100%);
   background: linear-gradient(to right, #05696f 0%,#05696f 4%,#05696f 46%,#20b9c7 58%,#20b9c7 100%);
+}
+
+#week11 h2 {
+  background: -moz-linear-gradient(left, #797959 0%, #797959 4%, #989c72 46%, #989c72 58%, #797959 100%);
+  background: -webkit-linear-gradient(left, #797959 0%,#797959 4%,#989c72 46%,#989c72 58%,#797959 100%);
+  background: linear-gradient(to right, #797959 0%,#797959 4%,#797959 46%,#989c72 58%,#989c72 100%);
 }
 
 
