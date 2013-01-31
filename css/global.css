@@ -57,7 +57,7 @@ h2 a {
 
 h1 span, h2 span { font-weight: 600; }
 
-#week0 h2 {
+#week0 h2, #week13 h2 {
   background: -moz-linear-gradient(left, #341856 0%, #341856 4%, #8e58a4 46%, #8e58a4 58%, #341856 100%);
   background: -webkit-linear-gradient(left, #341856 0%,#341856 4%,#8e58a4 46%,#8e58a4 58%,#341856 100%);
   background: linear-gradient(to right, #341856 0%,#341856 4%,#753d8c 46%,#8e58a4 58%,#8e58a4 100%);
