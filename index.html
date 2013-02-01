@@ -15,65 +15,79 @@
 <script type="text/javascript" src="http://use.typekit.com/zaa6jki.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
+<script src="js/jquery.lazyload.min.js" type="text/javascript"></script>
+
 </head>
 
 <body>
 <section id="week13">
-  <a href="images/week13.jpg" title="Week13"><img src="images/week13.jpg" alt="Week13" /></a>
+  <a href="images/week13.jpg" title="Week13"><img data-original="images/week13.jpg" alt="Week13" /></a>
   <h2><span>Week Thirteen:</span> The Grizzly Adams</h2>
 </section>
 <section id="week12">
-  <a href="images/week12.jpg" title="Week12"><img src="images/week12.jpg" alt="Week12" /></a>
+  <a href="images/week12.jpg" title="Week12"><img data-original="images/week12.jpg" alt="Week12" src="images/blank.gif"/></a>
   <h2><span>Week Twelve:</span> The Yukon Cornelius</h2>
 </section>
 <section id="week11">
-  <a href="images/week11.jpg" title="Week11"><img src="images/week11.jpg" alt="Week11" /></a>
+  <a href="images/week11.jpg" title="Week11"><img data-original="images/week11.jpg" alt="Week11" src="images/blank.gif"/></a>
   <h2><span>Week Eleven:</span> The Castaways</h2>
 </section>
 <section id="week10">
-  <a href="images/week10.jpg" title="Week10"><img src="images/week10.jpg" alt="Week10" /></a>
+  <a href="images/week10.jpg" title="Week10"><img data-original="images/week10.jpg" alt="Week10" src="images/blank.gif"/></a>
   <h2><span>Week Ten:</span> The Magnificent Seven</h2>
 </section>
 <section id="week9">
-  <a href="images/week9.jpg" title="Week9"><img src="images/week9.jpg" alt="Week9" /></a>
+  <a href="images/week9.jpg" title="Week9"><img data-original="images/week9.jpg" alt="Week9" src="images/blank.gif"/></a>
   <h2><span>Week Nine:</span> The Resolute</h2>
 </section>
 <section id="week7">
-  <a href="images/week7.jpg" title="Week7"><img src="images/week7.jpg" alt="Week7" /></a>
+  <a href="images/week7.jpg" title="Week7"><img data-original="images/week7.jpg" alt="Week7" src="images/blank.gif"/></a>
   <h2><span>Week Seven:</span> The End of the World</h2>
 </section>
 <section id="week6">
-  <a href="images/week6.jpg" title="Week6"><img src="images/week6.jpg" alt="Week6" /></a>
+  <a href="images/week6.jpg" title="Week6"><img data-original="images/week6.jpg" alt="Week6" src="images/blank.gif"/></a>
   <h2><span>Week Six:</span> The Dirty Hipster</h2>
 </section>
 <section id="week5">
-  <a href="images/week5.jpg" title="Week5"><img src="images/week5.jpg" alt="Week5" /></a>
+  <a href="images/week5.jpg" title="Week5"><img data-original="images/week5.jpg" alt="Week5" src="images/blank.gif"/></a>
   <h2><span>Week Five:</span> The Homeless Look</h2>
 </section>
 <section id="week4">
-  <a href="images/week4.jpg" title="Week4"><img src="images/week4.jpg" alt="Week4" /></a>
+  <a href="images/week4.jpg" title="Week4"><img data-original="images/week4.jpg" alt="Week4" src="images/blank.gif"/></a>
   <h2><span>Week Four:</span> The Itchy &#38; Scratchy</h2>
 </section>
 <section id="week3">
-  <a href="images/week3.jpg" title="Week3"><img src="images/week3.jpg" alt="Week3" /></a>
+  <a href="images/week3.jpg" title="Week3"><img data-original="images/week3.jpg" alt="Week3" src="images/blank.gif"/></a>
   <h2><span>Week Three:</span> The <a href="http://en.wikipedia.org/wiki/Wattle_(anatomy)" title="Wattle">Wattle</a></h2>
 </section>
 <section id="week2">
-  <a href="images/week2.jpg" title="Week2"><img src="images/week2.jpg" alt="Week2" /></a>
+  <a href="images/week2.jpg" title="Week2"><img data-original="images/week2.jpg" alt="Week2" src="images/blank.gif"/></a>
   <h2><span>Week Two:</span> The Neck Beard</h2>
 </section>
 <section id="week1">
-  <a href="images/week1.jpg" title="Week1"><img src="images/week1.jpg" alt="Week1" /></a>
+  <a href="images/week1.jpg" title="Week1"><img data-original="images/week1.jpg" alt="Week1" src="images/blank.gif"/></a>
   <h2><span>Week One:</span> The 5 O'Clock Shadow</h2>
 </section>
 <section id="week0">
-  <a href="images/week0.jpg" title="Week0"><img src="images/week0.jpg" alt="Week0" /></a>
+  <a href="images/week0.jpg" title="Week0"><img data-original="images/week0.jpg" alt="Week0" src="images/blank.gif"/></a>
   <h2><span>Week Zero:</span> The Clean Shave</h2>
 </section>
 <header>
   <h1>meltmedia <span>Beard Off 2012</span></h1>
   <p>Who can go the longest without shaving or trimming?</p>
 </header>
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('img').lazyload({ 
+      threshold : 500,
+      effect : "fadeIn" 
+    });
+
+  });
+</script>
 
 </body>
 
