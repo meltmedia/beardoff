@@ -99,7 +99,7 @@ h1 span, h2 span { font-weight: 600; }
   background: linear-gradient(to right, #b23469 0%,#b23469 4%,#b23469 46%,#ec498d 58%,#ec498d 100%);
 }
 
-#week7 h2 {
+#week7 h2, #week19 h2 {
   background: -moz-linear-gradient(left, #56184d 0%, #56184d 4%, #9c4e94 46%, #9c4e94 58%, #56184d 100%);
   background: -webkit-linear-gradient(left, #56184d 0%,#56184d 4%,#9c4e94 46%,#9c4e94 58%,#56184d 100%);
   background: linear-gradient(to right, #56184d 0%,#56184d 4%,#56184d 46%,#9c4e94 58%,#9c4e94 100%);
