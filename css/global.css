@@ -13,25 +13,169 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
 h1, h2 { font-family: "adelle-1","adelle-2", Times, serif; }
 
 body {
-  background: #000;
+  background: #d3d5cb;
 }
 
-header {
-  background: #000;
+h1 span, h2 span { font-weight: 600; }
+
+/*-----------------------------------
+Beard Off Cut Off
+------------------------------------*/
+
+.cutoff a {
+  border-bottom: 1px dotted #fff;
   color: #fff;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.cutoff-logo {
+  display: block;
+  margin: 30px auto 50px;
+  width: 160px;
+}
+
+.video-container {
+  background: #000;
+  padding: 30px;
+}
+
+.video {
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 1000px;
+}
+
+.video-embed {
+  padding: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+}
+
+.video-embed iframe, .video-embed object, .video-embed embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cutoff-intro {
+  background: #797959;
+  color: #fff;
+  padding: 80px 20px 0;
+  position: relative;
   text-align: center;
 }
 
-section {
+.beardoff-finalists {
+  display: block;
+  margin: 30px auto 0;
+  max-width: 100%;
+}
+
+.cutoff-intro h2 {
+  font-size: 34px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.cutoff-intro p {
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.form {
+  background: rgba(255,255,255,.1);
+  border-radius: 3px;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 40px;
+  text-align: left;
+}
+
+.form-row {
+  margin-bottom: 25px;
+}
+
+.form-label {
+  display: block;
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 8px;
+}
+
+.form-label--slash {
+  display: block;
+  float: left;
+  font-size: 20px;
+  margin-top: 15px;
+  text-align: center;
+  width: 5%;
+}
+
+.form-input {
+  background: rgba(255,255,255,.2);
+  border: none;
+  display: block;
+  font-size: 24px;
+  padding: 2%;
+}
+
+.form-input:focus {
+  background: rgba(255,255,255,.5);
+}
+
+.form-input--text  { width: 96%; }
+.form-input--month { width: 40%; float: left; }
+.form-input--year  { width: 47%; float: left; }
+
+.btn-submit {
+  background: #00ad97;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  margin-top: 40px;
+  padding: 20px 2%;
+  width: 100%;
+}
+
+.btn-submit:hover {
+  background: #008675;
+}
+
+/*-----------------------------------
+Beard Off History
+------------------------------------*/
+
+.beardoff-intro {
+  background: #333;
+  color: #fff;
+  margin-top: -90px;
+  padding: 30px 15px;
+  position: relative;
+  text-align: center;
+  z-index: 2;
+}
+
+.beardoff-intro p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.week {
   border-bottom: 2px solid #e0edee;
   margin: 0 auto;
   max-width: 2380px;
 }
 
-header {
-  margin: 0 auto;
-  max-width: 2340px;
-  padding: 30px 20px;
+.week img {
+  display: block;
+  width: 100%;
 }
 
 h1 {
@@ -39,7 +183,7 @@ h1 {
   font-weight: 300;
 }
 
-h2 {
+.week h2 {
   background: #444;
   color: #fff;
   font-size: 18px;
@@ -50,12 +194,10 @@ h2 {
   text-transform: uppercase;
 }
 
-h2 a {
+.week h2 a {
   color: #fff;
   text-decoration: underline;
 }
-
-h1 span, h2 span { font-weight: 600; }
 
 .purple h2 {
   background: -moz-linear-gradient(left, #341856 0%, #341856 4%, #8e58a4 46%, #8e58a4 58%, #341856 100%);
@@ -123,21 +265,11 @@ h1 span, h2 span { font-weight: 600; }
   background: linear-gradient(left,  #797959 0%,#797959 4%,#989c72 46%,#989c72 58%,#797959 100%);
 }
 
-p {
-  margin: 5px 0;
-  font-size: 16px;
-}
-
-img {
-  display: block;
-  width: 100%;
-}
-
 /*-----------------------------------
 Clearfix
 ------------------------------------*/
 
-.clearfix:after, section:after, header:after, footer:after {
+.clearfix:after, section:after, header:after, .form-row:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -153,23 +285,57 @@ Media Queries
 @media only screen 
 and (max-width: 900px) {
 
-  header { padding: 20px 20px; }
-  h1 { font-size: 28px; }
-  h2 { font-size: 16px; }
-  p { font-size: 14px; }
+  .beardoff-intro { padding: 20px 20px; }
+  .beardoff-intro h1 { font-size: 28px; }
+  .beardoff-intro p  { font-size: 14px; }
+  .week h2 { font-size: 16px; }
+
+}
+
+@media only screen 
+and (max-width: 600px) {
+
+  .cutoff-logo {
+    margin: 20px auto 30px;
+    width: 100px;
+  }
+
+  .cutoff-intro { padding: 40px 20px 0; }
+
+  .cutoff-intro h2 {
+    font-size: 26px;
+  }
+
+  .cutoff-intro p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .form { padding: 40px 20px; }
+
+  .form-label--slash {
+    margin-top: 10px;
+    width: 10%;
+  }
+
+  .form-input--month { width: 30%; }
+  .form-input--year  { width: 52%; }
+
+  .beardoff-intro { margin-top: -40px; }
 
 }
 
 @media only screen 
 and (max-width: 400px) {
 
-  h1 { font-size: 17px; }
+  .beardoff-intro h1 { font-size: 17px; }
+  .beardoff-intro p  { font-size: 12px; }
 
-  h2 {
+  .video-container { padding: 15px; }
+
+  .week h2 {
     font-size: 13px;
     padding: 6px 20px 7px;
   }
-
-  p { font-size: 11px; }
 
 }
