@@ -53,7 +53,7 @@ Beard Off Cut Off
   font-size: 18px;
   line-height: 30px;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   max-width: 600px;
 }
 
@@ -168,66 +168,77 @@ h1 {
 .purple h2 {
   background: -moz-linear-gradient(left, #341856 0%, #341856 4%, #8e58a4 46%, #8e58a4 58%, #341856 100%);
   background: -webkit-linear-gradient(left, #341856 0%,#341856 4%,#8e58a4 46%,#8e58a4 58%,#341856 100%);
+  background: -ms-linear-gradient(left, #341856 0%,#341856 4%,#8e58a4 46%,#8e58a4 58%,#341856 100%);
   background: linear-gradient(left, #341856 0%,#341856 4%,#8e58a4 46%,#8e58a4 58%,#341856 100%);
 }
 
 .orange h2 {
   background: -moz-linear-gradient(left, #b8321b 0%, #b8321b 4%, #de6d23 46%, #de6d23 58%, #b8321b 100%);
   background: -webkit-linear-gradient(left, #b8321b 0%,#b8321b 4%,#de6d23 46%,#de6d23 58%,#b8321b 100%);
+  background: -ms-linear-gradient(left, #b8321b 0%,#b8321b 4%,#de6d23 46%,#de6d23 58%,#b8321b 100%);
   background: linear-gradient(left, #b8321b 0%,#b8321b 4%,#de6d23 46%,#de6d23 58%,#b8321b 100%);
 }
 
 .blue h2 {
   background: -moz-linear-gradient(left, #05376f 0%, #05376f 4%, #206ec5 46%, #206ec5 58%, #05376f 100%);
   background: -webkit-linear-gradient(left, #05376f 0%,#05376f 4%,#206ec5 46%,#206ec5 58%,#05376f 100%);
+  background: -ms-linear-gradient(left, #05376f 0%,#05376f 4%,#206ec5 46%,#206ec5 58%,#05376f 100%);
   background: linear-gradient(left, #05376f 0%,#05376f 4%,#206ec5 46%,#206ec5 58%,#05376f 100%);
 }
 
 .green h2 {
   background: -moz-linear-gradient(left, #2e690e 0%, #2e690e 4%, #54a42a 46%, #54a42a 58%, #2e690e 100%);
   background: -webkit-linear-gradient(left, #2e690e 0%,#2e690e 4%,#54a42a 46%,#54a42a 58%,#2e690e 100%);
+  background: -ms-linear-gradient(left, #2e690e 0%,#2e690e 4%,#54a42a 46%,#54a42a 58%,#2e690e 100%);
   background: linear-gradient(left, #2e690e 0%,#2e690e 4%,#54a42a 46%,#54a42a 58%,#2e690e 100%);
 }
 
 .yellow h2 {
   background: -moz-linear-gradient(left, #af8800 0%, #af8800 4%, #e8b70e 46%, #e8b70e 58%, #af8800 100%);
   background: -webkit-linear-gradient(left, #af8800 0%,#af8800 4%,#e8b70e 46%,#e8b70e 58%,#af8800 100%);
+  background: -ms-linear-gradient(left, #af8800 0%,#af8800 4%,#e8b70e 46%,#e8b70e 58%,#af8800 100%);
   background: linear-gradient(left, #af8800 0%,#af8800 4%,#e8b70e 46%,#e8b70e 58%,#af8800 100%);
 }
 
 .teal h2 {
   background: -moz-linear-gradient(left, #008675 0%, #008675 4%, #00ad97 46%, #00ad97 58%, #008675 100%);
   background: -webkit-linear-gradient(left, #008675 0%,#008675 4%,#00ad97 46%,#00ad97 58%,#008675 100%);
+  background: -ms-linear-gradient(left, #008675 0%,#008675 4%,#00ad97 46%,#00ad97 58%,#008675 100%);
   background: linear-gradient(left, #008675 0%,#008675 4%,#00ad97 46%,#00ad97 58%,#008675 100%);
 }
 
 .pink h2 {
   background: -moz-linear-gradient(left, #b23469 0%, #b23469 4%, #ec498d 46%, #ec498d 58%, #b23469 100%);
   background: -webkit-linear-gradient(left, #b23469 0%,#b23469 4%,#ec498d 46%,#ec498d 58%,#b23469 100%);
+  background: -ms-linear-gradient(left, #b23469 0%,#b23469 4%,#ec498d 46%,#ec498d 58%,#b23469 100%);
   background: linear-gradient(left, #b23469 0%,#b23469 4%,#ec498d 46%,#ec498d 58%,#b23469 100%);
 }
 
 .purple2 h2 {
   background: -moz-linear-gradient(left, #56184d 0%, #56184d 4%, #9c4e94 46%, #9c4e94 58%, #56184d 100%);
   background: -webkit-linear-gradient(left, #56184d 0%,#56184d 4%,#9c4e94 46%,#9c4e94 58%,#56184d 100%);
+  background: -ms-linear-gradient(left, #56184d 0%,#56184d 4%,#9c4e94 46%,#9c4e94 58%,#56184d 100%);
   background: linear-gradient(left, #56184d 0%,#56184d 4%,#9c4e94 46%,#9c4e94 58%,#56184d 100%);
 }
 
 .burnt-orange h2 {
   background: -moz-linear-gradient(left, #b3590f 0%, #b3590f 4%, #e38015 46%, #e38015 58%, #b3590f 100%);
   background: -webkit-linear-gradient(left, #b3590f 0%,#b3590f 4%,#e38015 46%,#e38015 58%,#b3590f 100%);
+  background: -ms-linear-gradient(left, #b3590f 0%,#b3590f 4%,#e38015 46%,#e38015 58%,#b3590f 100%);
   background: linear-gradient(left, #b3590f 0%,#b3590f 4%,#e38015 46%,#e38015 58%,#b3590f 100%);
 }
 
 .cerulean h2 {
   background: -moz-linear-gradient(left, #05696f 0%, #05696f 4%, #20b9c7 46%, #20b9c7 58%, #05696f 100%);
   background: -webkit-linear-gradient(left, #05696f 0%,#05696f 4%,#20b9c7 46%,#20b9c7 58%,#05696f 100%);
+  background: -ms-linear-gradient(left, #05696f 0%,#05696f 4%,#20b9c7 46%,#20b9c7 58%,#05696f 100%);
   background: linear-gradient(left, #05696f 0%,#05696f 4%,#20b9c7 46%,#20b9c7 58%,#05696f 100%);
 }
 
 .army h2 {
   background: -moz-linear-gradient(left, #797959 0%, #797959 4%, #989c72 46%, #989c72 58%, #797959 100%);
   background: -webkit-linear-gradient(left, #797959 0%,#797959 4%,#989c72 46%,#989c72 58%,#797959 100%);
+  background: -ms-linear-gradient(left, #797959 0%,#797959 4%,#989c72 46%,#989c72 58%,#797959 100%);
   background: linear-gradient(left,  #797959 0%,#797959 4%,#989c72 46%,#989c72 58%,#797959 100%);
 }
 
