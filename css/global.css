@@ -114,6 +114,26 @@ Beard Off Cut Off
   max-width: 100%;
 }
 
+.social { text-align: center; }
+
+.share {
+  background: #939377;
+  background: rgba(255,255,255,.2);
+  border: 1px solid rgba(255,255,255,.25);
+  border-radius: 3px;
+  box-shadow: 2px 2px rgba(0,0,0,.2);
+  color: #fff;
+  display: inline-block;
+  font-size: 15px;
+  margin: 5px;
+  padding: 5px 10px;
+  width: 160px;
+}
+
+.share:hover {
+  background: #87876a;
+}
+
 /*-----------------------------------
 Beard Off History
 ------------------------------------*/
