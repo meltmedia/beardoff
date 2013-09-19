@@ -58,8 +58,8 @@ Beard Off Cut Off
 }
 
 .cutoff .link {
-  border-bottom: 1px dotted #fff;
-  color: #fff;
+  border-bottom: 1px dotted #444;
+  color: #444;
   display: inline-block;
   text-decoration: none;
 }
