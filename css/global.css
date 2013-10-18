@@ -57,6 +57,12 @@ Beard Off Cut Off
   max-width: 600px;
 }
 
+.cutoff .footnote {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: -15px;
+}
+
 .cutoff p a {
   border-bottom: 1px dotted #444;
   color: #444;
